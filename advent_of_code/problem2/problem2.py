@@ -1,9 +1,6 @@
-from os import nice
-
-
 # want to add up the total area and for each package, i need to add a little extra (the area of the smallest side)
 
-filepath = "./data.txt"
+filepath = "advent_of_code/problem2/data.txt"
 
 def parser(filepath: str):
     fulldata = []
@@ -23,6 +20,20 @@ def area_needed(parsed_data):
         total += required_paper
     return total
 
-# parsed_data = parser(filepath=filepath)
+parsed_data = parser(filepath=filepath)
 # print(area_needed(parsed_data=parsed_data))
 
+def ribbon_needed(parsed_data):
+    total_ribbon = 0
+    for box in parsed_data:
+        # to get the face with the smallest perimeter
+        # find the smallest two sides, then do 2*sum(side1,side2)
+        sorted_data = sorted(box)
+        perimeter = 2*(sorted_data[0]+sorted_data[1])
+        # the amount of ribbon for the bow is equal to the volume of the present
+        bow = box[0]*box[1]*box[2]
+        required_ribbon = perimeter+bow
+        total_ribbon += required_ribbon
+    return total_ribbon
+
+# print(ribbon_needed(parsed_data))
