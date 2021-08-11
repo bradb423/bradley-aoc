@@ -1,6 +1,6 @@
 # need to use the bracket in the input file to find what floor santa is on
 # ( is up one floor, ) is down one floor
-filepath = "./input.txt"
+filepath = "advent_of_code/problem1/input.txt"
 
 def reader(filepath: str):
     result_string = ""
@@ -23,9 +23,6 @@ def total_floors_for_santa(filepath):
     return floor_level
 
 # print(total_floors_for_santa(filepath))
-
-full_string = reader(filepath)
-print(len(full_string))
 
 def how_long_till_basement(filepath):
     # find out at what position he goes to floor -1
