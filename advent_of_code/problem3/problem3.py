@@ -6,6 +6,7 @@ def reader(filepath):
     with open(filepath, "r") as datafile:
         for line in datafile:
             instructions += line.strip()
+    datafile.close()
     return instructions
 
 ### part 1

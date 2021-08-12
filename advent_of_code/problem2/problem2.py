@@ -9,6 +9,7 @@ def parser(filepath: str):
             nice_list = line.strip().split("x")
             nice_list = [int(x) for x in nice_list]
             fulldata.append(nice_list)
+    inputdata.close()
     return fulldata
 
 def area_needed(parsed_data):
