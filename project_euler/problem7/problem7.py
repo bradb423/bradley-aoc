@@ -1,5 +1,6 @@
 # this script wants to find the 10001st prime
 
+
 def find_nth_prime(n):
     """aims to find the nth prime number
     should be sufficient to generate a list of primes and test each value
@@ -14,12 +15,13 @@ def find_nth_prime(n):
     while len(prime_list) < n:
         count = 0
         for prime in prime_list:
-            if step%prime == 0:
+            if step % prime == 0:
                 count += 1
         if count == 0:
             prime_list.append(step)
         step += 1
     return prime_list[-1]
+
 
 # print(find_nth_prime(10001))
 
