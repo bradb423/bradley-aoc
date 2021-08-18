@@ -6,6 +6,7 @@ limit = 2000000
 # this came from: https://stackoverflow.com/questions/49936222/an-efficient-sieve-of-eratosthenes-in-python
 import numpy as np
 
+
 def sieve(n):
     flags = np.ones(n, dtype=bool)
     flags[0] = flags[1] = False
@@ -13,8 +14,8 @@ def sieve(n):
         # We could use a lower upper bound for this loop, but I don't want to bother with
         # getting the rounding right on the sqrt handling.
         if flags[i]:
-            flags[i*i::i] = False
+            flags[i * i :: i] = False
     return np.flatnonzero(flags)
 
-print(np.sum(sieve(limit)))
 
+print(np.sum(sieve(limit)))
