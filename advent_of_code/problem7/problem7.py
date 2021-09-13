@@ -42,10 +42,10 @@ def find_value(key):
     else:
         return find_value(command[0])
 
-
-
     # the file should be run as:
     # python3 .../problem7.py filepath_to_input_file
+
+
 filepath = sys.argv[1]
 inputdata = parse_file(filepath)
 

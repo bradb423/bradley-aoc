@@ -2,6 +2,7 @@ import sys
 import itertools
 from collections import defaultdict
 
+
 def parse_file(filepath):
     pair_distance_dict = defaultdict(dict)
     city_names = []
@@ -26,11 +27,16 @@ def shortest_distance(pair_distance_dict, city_names):
         permutation_length = 0
         n = len(permutation)
         for i in range(0, n - 1):
-            permutation_length += pair_distance_dict[permutation[i]].get(permutation[i+1],0)
-            permutation_length += pair_distance_dict[permutation[i+1]].get(permutation[i],0)
+            permutation_length += pair_distance_dict[permutation[i]].get(
+                permutation[i + 1], 0
+            )
+            permutation_length += pair_distance_dict[permutation[i + 1]].get(
+                permutation[i], 0
+            )
         if permutation_length != 0:
             lengths.append(permutation_length)
     return min(lengths)
+
 
 def longest_distance(pair_distance_dict, city_names):
     lengths = []
@@ -40,11 +46,16 @@ def longest_distance(pair_distance_dict, city_names):
         permutation_length = 0
         n = len(permutation)
         for i in range(0, n - 1):
-            permutation_length += pair_distance_dict[permutation[i]].get(permutation[i+1],0)
-            permutation_length += pair_distance_dict[permutation[i+1]].get(permutation[i],0)
+            permutation_length += pair_distance_dict[permutation[i]].get(
+                permutation[i + 1], 0
+            )
+            permutation_length += pair_distance_dict[permutation[i + 1]].get(
+                permutation[i], 0
+            )
         if permutation_length != 0:
             lengths.append(permutation_length)
     return max(lengths)
+
 
 def main():
     filepath = sys.argv[1]
