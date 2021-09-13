@@ -1,12 +1,13 @@
 def parser(filepath):
     rows = []
-    with open(filepath,"r") as file:
+    with open(filepath, "r") as file:
         for line in file:
-            line =  line.strip()
+            line = line.strip()
             row = line.split(" ")
             row = [int(x) for x in row]
             rows.append(row)
     return rows
+
 
 def max_path(filepath):
     triangle = parser(filepath)
@@ -19,5 +20,6 @@ def max_path(filepath):
             maximum = max(triangle[row][col], triangle[row][col + 1])
             triangle[row - 1][col] += maximum
     return triangle[0][0]
+
 
 # print(max_path("project_euler/problem18/inputdata.txt"))

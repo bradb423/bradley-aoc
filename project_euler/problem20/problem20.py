@@ -11,6 +11,7 @@ def fact(n):
     else:
         return n * fact(n - 1)
 
+
 def sumdigits(n):
     return sum(map(int, str(n)))
 
