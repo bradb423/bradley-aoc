@@ -52,6 +52,7 @@ def not_sum_of_abundant(limit: int, sums: list):
     return not_abundant_sum
 
 
+# Note: why is this consistently 64 more than what it should be?
 def main():
     limit = 28123
     abundant_list = find_abundant(limit)
