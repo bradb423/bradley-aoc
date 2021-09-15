@@ -1,3 +1,4 @@
+#!usr/bin/env python3
 # This script aims to add up all the even terms of the Fibonacci sequence
 
 

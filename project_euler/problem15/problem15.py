@@ -1,3 +1,4 @@
+#!usr/bin/env python3
 # this script aims to find the number of paths in a 20,20 grid
 
 from functools import lru_cache

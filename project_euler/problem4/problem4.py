@@ -1,3 +1,4 @@
+#!usr/bin/env python3
 def is_palindrome(x):
     strx = str(x)
     rev_strx = strx[::-1]

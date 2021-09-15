@@ -1,3 +1,4 @@
+#!usr/bin/env python3
 # This script aims to find the sum of all multiples of 3 or 5 below 1000
 
 

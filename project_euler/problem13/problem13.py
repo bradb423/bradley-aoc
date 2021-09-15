@@ -1,3 +1,4 @@
+#!usr/bin/env python3
 # want the first 10 digits of the sum of the values in the file
 
 filepath = "project_euler/problem13/inputdata.txt"

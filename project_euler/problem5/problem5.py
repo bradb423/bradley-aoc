@@ -1,3 +1,4 @@
+#!usr/bin/env python3
 # find the smallest number such that it is a mutliple of 1 through to 20
 def smallest_multiple_solution():
     # sufficient to only check these numbers, remember, work backwards instead of forwards

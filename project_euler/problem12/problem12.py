@@ -1,3 +1,4 @@
+#!usr/bin/env python3
 # need to find the first triangle number to have 500 divisors
 import itertools as iter
 from functools import reduce

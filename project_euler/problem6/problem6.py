@@ -1,3 +1,4 @@
+#!usr/bin/env python3
 # this script finds the difference between the sum of squares and the square of the su
 
 

@@ -1,3 +1,4 @@
+#!usr/bin/env python3
 # this script aims to find the pythoagroean triplet
 # a^2 + b^2 = c^2
 # with a+b+c = 1000
