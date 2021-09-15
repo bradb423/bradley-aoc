@@ -1,3 +1,4 @@
+#!usr/bin/env python3
 # this script takes a given number and finds the largest product of digits
 # within the number itself
 # i have put the nuber in a text file for this case

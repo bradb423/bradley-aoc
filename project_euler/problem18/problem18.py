@@ -1,3 +1,4 @@
+#!usr/bin/env python3
 def parser(filepath):
     rows = []
     with open(filepath, "r") as file:

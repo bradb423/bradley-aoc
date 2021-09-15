@@ -1,3 +1,4 @@
+#!usr/bin/env python3
 from functools import reduce
 
 def sum_of_divisors(n):

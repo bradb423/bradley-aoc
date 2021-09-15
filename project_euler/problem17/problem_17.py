@@ -1,3 +1,4 @@
+#!usr/bin/env python3
 # this script finds the sum of all the lengths of the words for numbers
 import inflect
 

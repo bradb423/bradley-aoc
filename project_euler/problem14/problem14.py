@@ -1,3 +1,4 @@
+#!usr/bin/env python3
 # this script aims to find the longest collatz sequence in the first million values
 
 

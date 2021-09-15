@@ -1,3 +1,4 @@
+#!usr/bin/env python3
 # this script aims to find the sum of the primes below 2000000
 limit = 2000000
 

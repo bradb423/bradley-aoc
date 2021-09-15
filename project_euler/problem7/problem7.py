@@ -1,3 +1,4 @@
+#!usr/bin/env python3
 # this script wants to find the 10001st prime
 
 
