@@ -8,8 +8,5 @@ before_script:
 unit_test:
   stage: test
   script:
-  - pwd
-  - ls -l
   - export PYTHONPATH="$PYTHONPATH:."
-  - python -c "import sys;print(sys.path)"
   - pytest
