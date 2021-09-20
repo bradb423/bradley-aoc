@@ -1,0 +1,12 @@
+image: "python:3.8"
+
+before_script:
+  - python --version
+  - pip install -r requirements.txt
+
+
+unit_test:
+  stage: test
+  script:
+  - export PYTHONPATH="$PYTHONPATH:."
+  - pytest
