@@ -6,7 +6,7 @@ before_script:
 
 
 unit_test:
-  stage: Test
+  stage: test
   script:
   - pwd
   - ls -l
