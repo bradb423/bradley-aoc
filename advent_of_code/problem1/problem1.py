@@ -41,7 +41,6 @@ def how_long_till_basement(filepath):
             floor_level += -1
         if floor_level == -1:
             return position
-            break
         position += 1
 
 
