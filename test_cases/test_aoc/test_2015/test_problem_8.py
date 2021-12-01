@@ -1,4 +1,4 @@
-from advent_of_code.problem8.problem8 import parse_file, different_count, new_difference_count
+from advent_of_code.year_2015.problem8.problem8 import parse_file, different_count, new_difference_count
 
 def test_part_1():
     filepath = "advent_of_code/problem8/test_data.txt"

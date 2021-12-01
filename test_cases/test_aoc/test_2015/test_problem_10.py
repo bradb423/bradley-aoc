@@ -1,4 +1,4 @@
-from advent_of_code.problem10.problem10 import look_and_say
+from advent_of_code.year_2015.problem10.problem10 import look_and_say
 
 def test_1():
     assert look_and_say("1",1) == "11"

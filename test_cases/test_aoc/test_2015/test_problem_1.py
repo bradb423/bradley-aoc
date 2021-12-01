@@ -1,4 +1,4 @@
-from advent_of_code.problem1.problem1 import total_floors_for_santa, how_long_till_basement
+from advent_of_code.year_2015.problem1.problem1 import total_floors_for_santa, how_long_till_basement
 def test_problem_1a_1():
     case1 = "advent_of_code/problem1/mock_input_1.txt"
     assert total_floors_for_santa(case1) == 0

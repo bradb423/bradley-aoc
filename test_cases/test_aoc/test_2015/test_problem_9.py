@@ -1,4 +1,4 @@
-from advent_of_code.problem9.problem9 import parse_file, shortest_distance, longest_distance
+from advent_of_code.year_2015.problem9.problem9 import parse_file, shortest_distance, longest_distance
 
 def test_part_1():
     filepath = "advent_of_code/problem9/test_data.txt"

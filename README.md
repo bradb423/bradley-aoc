@@ -1,13 +1,19 @@
 # Advent of Code
 
-This repository is a documentation of my progress in Advent of Code (AoC).
+This repository is a documentation of my progress in [Advent of Code (AoC)](https://adventofcode.com/), along with [Project euler](https://projecteuler.net/).
 
 # How to run
-Set your current woring directory to be inside the file bradley-aoc and all problem solutions can be run from there.
 
-Create a vitrual environment using the commands: `python3 -m venv .venv` and `source .venv/bin/activate`
+First clone the repository and move into the resulting directory:
+  - `git clone https://github.com/bradb423/bradley-aoc.git`
+  - `cd bradley-aoc`
 
-To install the required packages, please enter `pip install -r requirements.txt` in the terminal.
+Create a vitrual environment and install dependencies using the commands:
+  - `python3 -m venv .venv`
+  - `source .venv/bin/activate`
+  - `pip isntall -r requirements.txt`
+
+And you're ready to go!
 
 # Running Tests
 To run the tests please use one of the following commands:

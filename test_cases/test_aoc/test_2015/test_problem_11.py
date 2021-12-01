@@ -1,4 +1,4 @@
-from advent_of_code.problem11.problem11 import is_it_valid, next_password
+from advent_of_code.year_2015.problem11.problem11 import is_it_valid, next_password
 
 
 def test_hijklmmn():
