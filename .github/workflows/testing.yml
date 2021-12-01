@@ -22,8 +22,6 @@ jobs:
         uses: actions/setup-python@v2
         with:
           python-verison: ${{ matrix.python-version }}
-      - name: Install Package
-        run: python setup.py install
       - name: Install Pytest
         run: |
           python -m pip install --upgrade pip
