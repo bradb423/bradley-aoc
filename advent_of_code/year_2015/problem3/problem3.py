@@ -1,5 +1,5 @@
 # define the filepath to be used
-filepath = "advent_of_code/problem3/data.txt"
+filepath = "advent_of_code/year_2015/problem3/data.txt"
 
 
 def reader(filepath):

@@ -1,7 +1,7 @@
 import numpy as np
 import re
 
-filepath = "advent_of_code/problem6/inputdata.txt"
+filepath = "advent_of_code/year_2015/problem6/inputdata.txt"
 
 # 0 is off, 1 is on
 lightgrid = np.zeros((1000, 1000))

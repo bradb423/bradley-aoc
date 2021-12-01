@@ -1,7 +1,7 @@
 import itertools as iter
 import re
 
-filepath = "advent_of_code/problem5/inputdata.txt"
+filepath = "advent_of_code/year_2015/problem5/inputdata.txt"
 vowels = "aeiou"
 alphabet = "abcdefghijklmnopqrstuvwxyz"
 

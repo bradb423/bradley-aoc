@@ -1,6 +1,6 @@
 # want to add up the total area and for each package, i need to add a little extra (the area of the smallest side)
 
-filepath = "advent_of_code/problem2/data.txt"
+filepath = "advent_of_code/year_2015/problem2/data.txt"
 
 
 def parser(filepath: str):

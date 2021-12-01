@@ -1,6 +1,6 @@
 # need to use the bracket in the input file to find what floor santa is on
 # ( is up one floor, ) is down one floor
-filepath = "advent_of_code/problem1/input.txt"
+filepath = "advent_of_code/year_2015/problem1/input.txt"
 
 
 def reader(filepath: str):
